@@ -1,0 +1,8 @@
+Exercice 1 - Assignation, égalité, référence
+ 1. S est de type String (chaine de caractère) et length() est une méthode de cette classe.
+ 2. True et False, effectivement s1 et s2 partage la même adresse alors que s3 est une nouvelle référence basé sur s1.
+ 3. On utilise la méthode equals ! 
+    s4.equals(s5)
+ 4. True : les strings dit constant sont déposé dans un dictionnaire et partage donc la même adresse.
+ 5. Cela poserait des problèmes avec la mémoire
+ 6. Les strings ne sont pas mutable donc la deuxième ligne renvoie la modification sans qu'elle soit attribué.
